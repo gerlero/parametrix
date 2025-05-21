@@ -1,6 +1,6 @@
-# <center>[<img src="https://raw.githubusercontent.com/gerlero/parametrix/main/logo.png" alt="Parametrix logo" width=250></img>](https://github.com/gerlero/parametrix/)</center>
+# <div align="center">[<img src="https://raw.githubusercontent.com/gerlero/parametrix/main/logo.png" alt="Parametrix logo" width=250></img>](https://github.com/gerlero/parametrix/)</div>
 
-[`flax.nnx.Param`](https://flax.readthedocs.io/en/latest/api_reference/flax.nnx/variables.html#flax.nnx.Param)-like computed parameters for bare [JAX](https://github.com/jax-ml/jax) (and [Equinox](https://github.com/patrick-kidger/equinox)).
+**[`flax.nnx.Param`](https://flax.readthedocs.io/en/latest/api_reference/flax.nnx/variables.html#flax.nnx.Param)-like computed parameters for bare [JAX](https://github.com/jax-ml/jax) (and [Equinox](https://github.com/patrick-kidger/equinox)).**
 
 [![Documentation](https://img.shields.io/readthedocs/parametrix)](https://parametrix.readthedocs.io/)
 [![CI](https://github.com/gerlero/parametrix/actions/workflows/ci.yml/badge.svg)](https://github.com/gerlero/parametrix/actions/workflows/ci.yml)
@@ -20,7 +20,7 @@ pip install parametrix
 
 ## Example
 
-The following example shows how to use `Param` as a base class for parameter class that enforces positivity:
+The following example shows how to use [`Param`](https://parametrix.readthedocs.io) as a base class for a parameter class that enforces positivity:
 
 ```python
 import jax.numpy as jnp
