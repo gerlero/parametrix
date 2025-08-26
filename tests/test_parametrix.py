@@ -101,7 +101,7 @@ def test_param_to_param_operations() -> None:
     assert param1 * param2 == 30.0
     assert param1 / param2 == pytest.approx(3.333333, abs=1e-5)
     assert param1 % param2 == 1.0
-    assert param1 ** param2 == 1000.0
+    assert param1**param2 == 1000.0
     assert param1 // param2 == 3.0
 
 
@@ -145,12 +145,12 @@ def test_reverse_operations() -> None:
 
     # Test reverse operations
     assert 10 + param == 15.0  # __radd__
-    assert 10 - param == 5.0   # __rsub__
-    assert 3 * param == 15.0   # __rmul__
-    assert 20 / param == 4.0   # __rtruediv__
+    assert 10 - param == 5.0  # __rsub__
+    assert 3 * param == 15.0  # __rmul__
+    assert 20 / param == 4.0  # __rtruediv__
     assert 17 // param == 3.0  # __rfloordiv__
-    assert 17 % param == 2.0   # __rmod__
-    assert 2 ** param == 32.0  # __rpow__
+    assert 17 % param == 2.0  # __rmod__
+    assert 2**param == 32.0  # __rpow__
 
     # Test reverse divmod
     quot, rem = divmod(17, param)
