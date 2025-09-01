@@ -7,7 +7,7 @@ name = "parametrix"
 version = "0.1.0"
 license = "Apache-2.0"
 license-files = ["LICENSE.txt"]
-authors = [{ name = "Gabriel S. Gerlero", email = "ggerlero@cimec.unl.edu.ar" },]
+authors = [{ name = "Gabriel S. Gerlero", email = "ggerlero@cimec.unl.edu.ar" }]
 description = "Flax-like computed parameters for bare JAX"
 readme = "README.md"
 classifiers = [
