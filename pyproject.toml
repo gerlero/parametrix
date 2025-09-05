@@ -42,7 +42,11 @@ test = [
     "pytest>=8,<9",
     "pytest-cov",
 ]
-docs = ["parametrix[docs]"]
+docs = [
+    "mkdocs>=1.6.1,<2",
+    "mkdocs-material>=9.6.12,<10",
+    "mkdocstrings[python]>=0.29.1,<0.31",
+]
 dev = [
     {include-group = "lint"},
     {include-group = "typing"},
@@ -50,16 +54,10 @@ dev = [
     {include-group = "docs"},
 ]
 
-[project.optional-dependencies]
-docs = [
-    "mkdocs>=1.6.1,<2",
-    "mkdocs-material>=9.6.12,<10",
-    "mkdocstrings[python]>=0.29.1,<0.31",
-]
-
 [project.urls]
 Homepage = "https://github.com/gerlero/parametrix"
 Repository = "https://github.com/gerlero/parametrix"
+Documentation = "https://parametrix.readthedocs.io"
 
 [tool.uv.build-backend]
 module-root = "."
