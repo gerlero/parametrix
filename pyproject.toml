@@ -57,6 +57,7 @@ dev = [
 [project.urls]
 Homepage = "https://github.com/gerlero/parametrix"
 Repository = "https://github.com/gerlero/parametrix"
+Documentation = "https://parametrix.readthedocs.io"
 
 [tool.uv.build-backend]
 module-root = "."
