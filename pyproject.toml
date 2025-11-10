@@ -40,7 +40,7 @@ lint = ["ruff"]
 typing = ["ty"]
 test = [
     "optax>=0.2.4,<0.3",
-    "pytest>=8,<9",
+    "pytest>=8,<10",
     "pytest-cov",
 ]
 docs = [
