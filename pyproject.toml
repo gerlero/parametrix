@@ -60,9 +60,6 @@ Homepage = "https://github.com/gerlero/parametrix"
 Repository = "https://github.com/gerlero/parametrix"
 Documentation = "https://parametrix.readthedocs.io"
 
-[tool.uv.build-backend]
-module-root = "."
-
 [tool.ruff.lint]
 extend-select = ["ALL"]
 extend-ignore = [
