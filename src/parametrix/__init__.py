@@ -1,17 +1,12 @@
 """Flax-like computed parameters for bare JAX."""
 
-from __future__ import annotations
-
-from typing import TYPE_CHECKING, Any, Generic, TypeVar
-
-if TYPE_CHECKING:
-    from collections.abc import Iterator
-
-    import numpy as np
+from collections.abc import Iterator
+from typing import Any, Generic, TypeVar
 
 import equinox as eqx
 import jax
 import jax.numpy as jnp
+import numpy as np
 
 T = TypeVar("T")
 
