@@ -1,4 +1,5 @@
-# <div align="center">[<img src="https://raw.githubusercontent.com/gerlero/parametrix/main/logo.png" alt="Parametrix logo" width=250></img>](https://github.com/gerlero/parametrix/)</div>
+<div align="center">
+<a href="https://github.com/gerlero/parametrix"><img src="https://raw.githubusercontent.com/gerlero/parametrix/main/logo.png" alt="Parametrix logo" width=250/></a>
 
 **[`flax.nnx.Param`](https://flax.readthedocs.io/en/latest/api_reference/flax.nnx/variables.html#flax.nnx.Param)-like computed parameters for bare [JAX](https://github.com/jax-ml/jax) (and [Equinox](https://github.com/patrick-kidger/equinox)).**
 
@@ -11,7 +12,7 @@
 [![Publish](https://github.com/gerlero/parametrix/actions/workflows/pypi-publish.yml/badge.svg)](https://github.com/gerlero/parametrix/actions/workflows/pypi-publish.yml)
 [![PyPI](https://img.shields.io/pypi/v/parametrix)](https://pypi.org/project/parametrix/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/parametrix)](https://pypi.org/project/parametrix/)
-
+</div>
 
 ## Installation
 
