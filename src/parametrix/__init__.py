@@ -133,7 +133,7 @@ class Param(eqx.Module, Generic[T]):
     def __rdivmod__(self, other: Any) -> tuple[jax.Array, jax.Array]:
         if isinstance(other, Param):
             other = other.value
-        return self.value.__rdivmod__(other)  # type: ignore[return-value]
+        return self.value.__rdivmod__(other)  # ty: ignore[invalid-return-type]
 
     def __rpow__(self, other: Any) -> jax.Array:
         if isinstance(other, Param):
