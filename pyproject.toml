@@ -1,5 +1,5 @@
 [build-system]
-requires = ["uv_build>=0.9,<0.12"]
+requires = ["uv_build>=0.11,<0.12"]
 build-backend = "uv_build"
 
 [project]
@@ -38,13 +38,13 @@ lint = ["ruff"]
 typing = ["ty"]
 test = [
     "optax>=0.2.4,<0.3",
-    "pytest>=8,<10",
+    "pytest>=9,<10",
     "pytest-cov",
 ]
 docs = [
     "mkdocs>=1.6.1,<2",
     "mkdocs-material>=9.6.12,<10",
-    "mkdocstrings[python]>=0.29.1,<1.1",
+    "mkdocstrings[python]>=1.0.5,<2",
 ]
 dev = [
     {include-group = "lint"},
