@@ -28,6 +28,7 @@ The following example shows how to use [`Param`](https://parametrix.readthedocs.
 import jax.numpy as jnp
 from parametrix import Param
 
+
 class PositiveOnlyParam(Param):
     def __init__(self, value):
         super().__init__(jnp.log(value))
