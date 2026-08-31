@@ -34,12 +34,12 @@ dependencies = [
 ]
 
 [dependency-groups]
-lint = ["ruff"]
-typing = ["ty"]
+lint = ["ruff>=0.16.5,<0.17"]
+typing = ["ty>=0.0.76,<0.1"]
 test = [
     "optax>=0.2.4,<0.3",
     "pytest>=9,<10",
-    "pytest-cov",
+    "pytest-cov>=7,<8",
 ]
 docs = [
     "mkdocs>=1.6.1,<2",
